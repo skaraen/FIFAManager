@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplFixtures"
+    android:orientation="vertical"
+    android:background="@drawable/splbg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fixtures Of"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:fontFamily="monospace"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Argentina"
+        android:textSize="50dp"
+        android:fontFamily="monospace"
+        android:id="@+id/teamName"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="210dp"
+        android:layout_gravity="center"
+        android:id="@+id/teamIcon"
+        android:padding="10dp"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/splListView"/>
+
+</LinearLayout>
